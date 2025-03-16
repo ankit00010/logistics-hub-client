@@ -1,0 +1,98 @@
+/* Header.css */
+
+
+/* Top Navbar css here */
+
+/* styles.css */
+
+/* Navbar styles */
+
+
+
+.custom-login-link {
+  background-color: #CF6301;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  border-radius: 50px;
+  /* Use a value that creates an oval shape, adjust as needed */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-login-link:hover {
+  background-color: #FF8500;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+
+
+/* Layout.css */
+/* CSS for the page wrapper  */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* CSS for the content layout */
+.content-layout {
+  flex-grow: 1;
+}
+
+/* CSS for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Register-Page*/
+
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+
+
+/* shared css */
+/* Shared background image style */
+.shared-background {
+  background: #333;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+/* 
+/* CSS */
+.content-layout {
+  padding-bottom: 100px;
+  /* Set the height of your footer here */
+
+  /* Add this to ensure a minimum height for the content area */
+}
+
+
+
+
+
+/* Home page css for about section */
+.home-page-container {
+  margin-top: 30vh;
+}
+
+
+
+* h3 {
+  color: #CF6301;
+}

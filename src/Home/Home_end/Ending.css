@@ -1,0 +1,71 @@
+/* Ending.css */
+
+/* Styles for large screens */
+.container-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-container-end {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-container-end {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-container-end h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.link-container-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .text-container-end h1 {
+        font-size: 24px;
+    }
+
+    .image-overlay {
+        padding: 10px;
+    }
+
+    /* Adjust the image height for smaller screens */
+    .cover-image {
+        height: 50vh;
+        /* You can adjust the value based on your preference */
+    }
+}
