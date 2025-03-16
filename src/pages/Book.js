@@ -201,7 +201,8 @@ const BookingForm = () => {
       setIsLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8080/api/v1/users/book-form",
+        // "http://localhost:8080/api/v1/users/book-form",
+        "https://logistics-hub-server.vercel.app/api/v1/users/book-form",
         formData
       );
 

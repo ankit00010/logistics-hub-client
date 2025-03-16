@@ -32,7 +32,8 @@ const LoginPage = () => {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8080/api/v1/users/login",
+        // "http://localhost:8080/api/v1/users/login",
+        "https://logistics-hub-server.vercel.app/api/v1/users/login",
         formData
       );
       console.log(response);
