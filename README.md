@@ -20,13 +20,6 @@ https://github.com/ankit00010/logistics-hub-server
 ## Client
 https://github.com/ankit00010/logistics-hub-client/
 
- **Clone the Repository**
-   ```sh
-   git clone https://github.com/your-repo/aal-logistics.git
-   cd aal-logistics
-   ```
-
-
 
 ---
 Feel free to contribute or report issues!
