@@ -12,6 +12,9 @@ AAL Logistics is a cutting-edge web platform designed to seamlessly connect comp
 - **Backend**: Node.js + Express.js 🚀
 - **Database**: MongoDB 🗄️
 
+## 🔗 Live Preview
+🔗 [AAL Logistics Platform](https://aalogistics.vercel.app/)
+
 ## 🔗 Repositories
 - **Server**: [Logistics Hub Server](https://github.com/ankit00010/logistics-hub-server)
 - **Client**: [Logistics Hub Client](https://github.com/ankit00010/logistics-hub-client)
